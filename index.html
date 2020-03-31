@@ -10,7 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>WRI Travel</title>
 </head>
-<body>
+
+<!-- scrollspy to make the page scroll -->
+<body id="home" class="scrollspy">
     <!-- navbar-fixed to make the navbar stick -->
     <div class="navbar-fixed">
         <!-- background color -->
@@ -96,6 +98,20 @@
                 </div>
             </li>
         </ul>
+    </section>
+
+    <!-- search bar-->
+    <section id="search" class="section section-search yellow darken-4 white-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Search Destinations</h3>
+                    <div class="input-field">
+                        <input type="text" class="white grey-text autocomplete" id="autocomplete" placeholder="Any place you want to go">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--JavaScript at end of body for optimized loading-->
