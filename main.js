@@ -9,5 +9,5 @@ M.Slider.init(slider, {
     indicators: false,      // hide the dots
     height: 500,
     transition: 500,        // speed of the transition
-    interval: 6000          // time for a image to switch
+    interval: 5000          // time for a image to switch
 })
