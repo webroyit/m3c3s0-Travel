@@ -24,5 +24,6 @@ M.Autocomplete.init(ac, {
         "Miami": null,
         "Orlando": null,
         "San Francisco": null,
+        "Hawaii": null
     }
 })
