@@ -10,7 +10,7 @@ M.Slider.init(slider, {
     height: 500,
     transition: 500,        // speed of the transition
     interval: 5000          // time for a image to switch
-})
+});
 
 // autocomplete
 const ac = document.querySelector(".autocomplete");
@@ -26,4 +26,9 @@ M.Autocomplete.init(ac, {
         "San Francisco": null,
         "Hawaii": null
     }
-})
+});
+
+// material boxed
+// querySelectorAll() apply the styles all image with the class of materialboxed
+const mb = document.querySelectorAll(".materialboxed");
+M.Materialbox.init(mb, {})
