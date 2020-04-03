@@ -31,4 +31,8 @@ M.Autocomplete.init(ac, {
 // material boxed
 // querySelectorAll() apply the styles all image with the class of materialboxed
 const mb = document.querySelectorAll(".materialboxed");
-M.Materialbox.init(mb, {})
+M.Materialbox.init(mb, {});
+
+// scrollspy
+const ss = document.querySelectorAll(".scrollspy");
+M.ScrollSpy.init(ss, {});
